@@ -2,22 +2,24 @@
   "compilerOptions": {
     "target": "ES2020",
     "module": "CommonJS",
-    "rootDir": "src",
-    "outDir": "dist",
+    "outDir": "./dist",
+    "rootDir": "./",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "baseUrl": "./",
     "paths": {
-      "@dtos/*": ["src/dtos/*"],
-      "@dtos": ["src/dtos"],
-      "@entities/*": ["src/entities/*"],
-      "@entities": ["src/entities"],
-      "@modules/*": ["src/modules/*"],
-      "@modules": ["src/modules"],
-      "@interfaces/*": ["src/interfaces/*"],
-      "@interfaces": ["src/interfaces"]
+      "@src/*": ["src/*"]
+      // "@dtos/*": ["src/dtos/*"],
+      // "@dtos": ["src/dtos"],
+      // "@entities/*": ["src/entities/*"],
+      // "@entities": ["src/entities"],
+      // "@modules/*": ["src/modules/*"],
+      // "@modules": ["src/modules"],
+      // "@interfaces/*": ["src/interfaces/*"],
+      // "@interfaces": ["src/interfaces"]
     }
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["dist"]
 }

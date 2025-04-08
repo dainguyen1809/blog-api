@@ -14,4 +14,8 @@ app.use(compression());
 app.use(express.json());
 app.use(urlencoded({ extended: true }));
 
+app.get('/', (req, res) => {
+  res.status(200).json({ message: 'Hello sweetie!' });
+});
+
 export default app;
