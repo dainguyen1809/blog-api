@@ -46,8 +46,7 @@ A modular and scalable blog backend built with Node.js, Express, TypeScript, and
 ### 1. Clone project
 
 ```bash
-//
-
+git clone https://github.com/dainguyen1809/blog-api.git
 ```
 
 ### 2. Install Dependencies
